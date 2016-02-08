@@ -60,3 +60,6 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_SEPOLICY_DIRS += device/sony/rhine/sepolicy
 
 include device/sony/common/CommonConfig.mk
+
+# TWRP
+include device/sony/rhine/twrp.mk
